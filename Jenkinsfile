@@ -18,6 +18,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 sleep 15
+                echo 'Deployed Successfully'
             }
         }
     }
